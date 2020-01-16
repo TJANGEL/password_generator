@@ -87,6 +87,11 @@ input[type='checkbox'] {
   justify-content: space-between;
   align-items: center;
   margin: 15px 0;
+  font-size: 0.85rem;
+}
+
+.setting input:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 400px) {
@@ -124,8 +129,8 @@ input[type='checkbox'] {
   background-color: #001f61;
   border-radius: 10px 10px 0 0;
   color: #fff;
-  font-family: 'Muli';
-  padding: 7px 15px;
+  font-size: 2rem;
+  padding: 9px 17px;
   position: fixed;
   bottom: 0;
   left: 50%;
@@ -139,12 +144,12 @@ input[type='checkbox'] {
   text-decoration: none;
 }
 
+.floating-text a:hover {
+  color: white;
+}
+
 @media screen and (max-width: 480px) {
   .social-panel-container.visible {
     transform: translateX(0px);
-  }
-
-  .floating-btn {
-    right: 10px;
   }
 }
